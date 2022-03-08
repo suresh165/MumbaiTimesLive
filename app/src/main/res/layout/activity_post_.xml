@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activitys.Post_Activity">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <TextView
+        android:id="@+id/content_text"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:text="title"
+        android:textColor="@color/black"
+        android:maxLines="3"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="4">
+        <!--text view for our batch name-->
+
+        <ImageView
+            android:id="@+id/img_date"
+            android:src="@drawable/ic_baseline_date"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/text_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:padding="3dp"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/black" />
+
+        <ImageView
+            android:id="@+id/img_bookmark"
+            android:src="@drawable/ic_baseline_comment"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/comment_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:padding="3dp"
+            android:layout_marginLeft="7dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <WebView
+        android:id="@+id/content_View"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

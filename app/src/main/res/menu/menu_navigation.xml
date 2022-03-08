@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:title="Home"
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home"/>
+
+        <item
+            android:title="Categories"
+            android:id="@+id/nav_Category"
+            android:icon="@drawable/ic_baseline_categories"/>
+
+        <item
+            android:title="Bookmarks"
+            android:id="@+id/nav_Electrion"
+            android:icon="@drawable/ic_baseline_bookmark"/>
+
+    <item
+        android:id="@+id/navigation_Social"
+        android:title="Social">
+
+        <menu>
+            <item
+                android:title="Youtub"
+                android:id="@+id/nav_youtub"
+                android:icon="@drawable/youtube"/>
+
+            <item
+                android:title="Facebook"
+                android:id="@+id/nav_facebook"
+                android:icon="@drawable/facebook"/>
+
+            <item
+                android:title="Twitter"
+                android:id="@+id/nav_twitter"
+                android:icon="@drawable/twitter"/>
+            <item
+                android:title="Instagram"
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/instagram"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/navigation_other"
+        android:title="Other">
+
+        <menu>
+            <item
+                android:title="Website"
+                android:id="@+id/nav_website"
+                android:icon="@drawable/website"/>
+
+            <item
+                android:title="About Us"
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_baseline_about"/>
+
+            <item
+                android:title="Privacy Policy"
+                android:id="@+id/nav1_privacy_policy"
+                android:icon="@drawable/privacypolicy"/>
+
+            <item
+                android:title="Publisher and Author"
+                android:id="@+id/nav1_puclisherAuthor"
+                android:icon="@drawable/ic_baseline_about"/>
+            <item
+                android:title="Contact us"
+                android:id="@+id/nav1_contactus"
+                android:icon="@drawable/contactus"/>
+            <item
+                android:title="Share"
+                android:id="@+id/nav1_share"
+                android:icon="@drawable/ic_baseline_share"/>
+            <item
+                android:title="Rate Us"
+                android:id="@+id/nav1_rateus"
+                android:icon="@drawable/ic_baseline_rateus"/>
+            <item
+                android:title="Exit"
+                android:id="@+id/nav1_exit"
+                android:icon="@drawable/ic_baseline_exit"/>
+        </menu>
+    </item>
+   </menu>
